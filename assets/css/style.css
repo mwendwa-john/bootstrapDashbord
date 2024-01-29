@@ -7,6 +7,8 @@
     --background-color: #EBF4F8;
 
     --primary-color: #7380ec;
+    --primary-light-color: #E0E7F9;
+    --primary-dark-color: #515aa5;
     --color-light: rgba(132, 139, 200, 0.18);
     --secondary-color: #000000;
     --tertiary-color: #000000;
@@ -151,8 +153,17 @@ h4 {
     margin: 0;
 }
 
-.footer p {
-    color: red;
+.dropdown-menu {
+    background-color: #e3e6fb;
+}
+
+.dropdown-menu .dropdown-item {
+    color: var(--primary-color);
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: var(--color-light);
+    color: var(--primary-dark-color);
 }
 /* ==========   END:: GLOBAL STYLE  ============ */
 
@@ -423,12 +434,11 @@ a.sidebar-link .list-icon {
 
 /* ==============    START: TABLE SECTION   ===================*/
 section .table-section {
-    background: var(--white-color);
+    background: var(--primary-light-color);
     width: 100%;
     border-radius: var(--card-border-radius);
     padding: var(--card-padding);
     text-align: center;
-    box-shadow: var(--box-shadow-1);
     transition: all 300ms ease;
 }
 
@@ -447,7 +457,7 @@ section .table-section {
 
 .table-section table tbody td {
     border-bottom: 1px solid var(--color-light);
-    color: var(--color-dark-variant);
+    color: var(--primary-dark-color);
     font-size: var(--small-font-size);
     text-align: center;
     vertical-align: middle;
@@ -462,8 +472,10 @@ section .table-section {
     border-bottom: 1px solid var(--color-light);
 }
 
-.table-section table tr:hover {
-    cursor: pointer;
+.table.table-hover tbody tr:hover td,
+.table.table-hover tbody tr:hover th  {
+    color: var(--primary-color);
+    background-color: var(--primary-light-color);
 }
 
 .table-section table tbody tr:last-child {

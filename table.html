@@ -8,7 +8,7 @@
     <title>Superior Hotels, Kenya</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/ae360af17e.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -17,11 +17,8 @@
             <!-- Content For Sidebar -->
             <div class="h-100">
                 <div class="sidebar-logo">
-                    <!-- <a href="#" class="d-flex mx-auto">
-                        Superior Hotels, <span>Kenya</span>
-                    </a> -->
                     <a href="#" class="d-flex mx-auto">
-                        <img src="image/superiorLogo.png" alt="logo" class="">
+                        <img src="assets/image/superiorLogo.png" alt="logo" class="">
                         <h4 class="sidebar-brand text-center m-2">Superior Hotel <br><span>Kenya</span></h4>
                     </a>
                 </div>
@@ -33,33 +30,28 @@
 
                     <li class="sidebar-item">
                         <a href="#" class="sidebar-link">
-                            <i class="fa-solid fa-list pe-2"></i>
+                            <i class="fa-solid fa-list"></i>
                             Dashboard
-                        </a>
-                    </li>
-
-                    <li class="sidebar-item">
-                        <a href="blank.html" class="sidebar-link">
-                            <i class="fa-solid fa-list pe-2"></i>
-                            Blank
                         </a>
                     </li>
 
                     <li class="sidebar-item">
                         <a href="#" class="sidebar-link collapsed" data-bs-target="#apps" data-bs-toggle="collapse"
                             aria-expanded="false">
-                            <i class="fa-solid fa-file-lines pe-2"></i>
+                            <i class="fa-solid fa-shapes"></i>
                             Apps
                         </a>
                         <ul id="apps" class="sidebar-dropdown collapse" data-bs-parent="#sidebar">
                             <li class="sidebar-item">
                                 <a href="#" class="sidebar-link">
+                                    <i class="fa-solid fa-circle list-icon"></i>
                                     Calendar
                                 </a>
-                                
+
                             </li>
                             <li class="sidebar-item">
                                 <a href="#" class="sidebar-link">
+                                    <i class="fa-solid fa-circle list-icon"></i>
                                     Chat
                                 </a>
                             </li>
@@ -72,10 +64,11 @@
 
                     <li class="sidebar-item">
                         <a href="#" class="sidebar-link collapsed" data-bs-target="#payroll" data-bs-toggle="collapse"
-                            aria-expanded="false"><i class="fa-solid fa-sliders pe-2"></i>
+                            aria-expanded="false">
+                            <i class="fa-solid fa-sack-dollar"></i>
                             Payroll
                         </a>
-                        <ul id="payroll" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                        <ul id="payroll" class="sidebar-dropdown collapse" data-bs-parent="#sidebar">
                             <li class="sidebar-item">
                                 <a href="#" class="sidebar-link">
                                     <i class="fa-solid fa-circle list-icon"></i>
@@ -96,47 +89,286 @@
                             </li>
                         </ul>
                     </li>
+
                     <li class="sidebar-item">
-                        <a href="#" class="sidebar-link collapsed" data-bs-target="#auth" data-bs-toggle="collapse"
-                            aria-expanded="false"><i class="fa-regular fa-user pe-2"></i>
-                            Auth
+                        <a href="#" class="sidebar-link">
+                            <i class="fa-solid fa-clipboard-list"></i>
+                            Policies
                         </a>
-                        <ul id="auth" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                    </li>
+
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link collapsed" data-bs-target="#reports" data-bs-toggle="collapse"
+                            aria-expanded="false">
+                            <i class="fa-solid fa-mortar-pestle"></i>
+                            Reports
+                        </a>
+                        <ul id="reports" class="sidebar-dropdown collapse" data-bs-parent="#sidebar">
                             <li class="sidebar-item">
-                                <a href="#" class="sidebar-link">Login</a>
+                                <a href="#" class="sidebar-link">
+                                    <i class="fa-solid fa-circle list-icon"></i>
+                                    Employee report
+                                </a>
                             </li>
                             <li class="sidebar-item">
-                                <a href="#" class="sidebar-link">Register</a>
+                                <a href="#" class="sidebar-link">
+                                    <i class="fa-solid fa-circle list-icon"></i>
+                                    Payroll report
+                                </a>
                             </li>
                             <li class="sidebar-item">
-                                <a href="#" class="sidebar-link">Forgot Password</a>
+                                <a href="#" class="sidebar-link">
+                                    <i class="fa-solid fa-circle list-icon"></i>
+                                    Leave report
+                                </a>
                             </li>
                         </ul>
                     </li>
-                    <li class="sidebar-header">
-                        Multi Level Menu
+
+                    <li class="sidebar-header text-uppercase">
+                        Employees
                     </li>
+
                     <li class="sidebar-item">
-                        <a href="#" class="sidebar-link collapsed" data-bs-target="#multi" data-bs-toggle="collapse"
-                            aria-expanded="false"><i class="fa-solid fa-share-nodes pe-2"></i>
-                            Multi Dropdown
+                        <a href="#" class="sidebar-link collapsed" data-bs-target="#employees" data-bs-toggle="collapse"
+                            aria-expanded="false">
+                            <i class="fa-solid fa-users"></i>
+                            Employees
                         </a>
-                        <ul id="multi" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                        <ul id="employees" class="sidebar-dropdown collapse" data-bs-parent="#sidebar">
                             <li class="sidebar-item">
-                                <a href="#" class="sidebar-link collapsed" data-bs-target="#level-1"
-                                    data-bs-toggle="collapse" aria-expanded="false">Level 1</a>
-                                <ul id="level-1" class="sidebar-dropdown list-unstyled collapse">
-                                    <li class="sidebar-item">
-                                        <a href="#" class="sidebar-link">Level 1.1</a>
-                                    </li>
-                                    <li class="sidebar-item">
-                                        <a href="#" class="sidebar-link">Level 1.2</a>
-                                    </li>
-                                </ul>
+                                <a href="#" class="sidebar-link">
+                                    <i class="fa-solid fa-circle list-icon"></i>
+                                    All employees
+                                </a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a href="#" class="sidebar-link">
+                                    <i class="fa-solid fa-circle list-icon"></i>
+                                    Holidays
+                                </a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a href="#" class="sidebar-link">
+                                    <i class="fa-solid fa-circle list-icon"></i>
+                                    Leaves
+                                </a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a href="#" class="sidebar-link">
+                                    <i class="fa-solid fa-circle list-icon"></i>
+                                    Disciplinary
+                                </a>
                             </li>
                         </ul>
                     </li>
+
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <i class="fa-solid fa-users"></i>
+                            Casuals
+                        </a>
+                    </li>
+
+                    <li class="sidebar-header text-uppercase">
+                        Performance
+                    </li>
+
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link collapsed" data-bs-target="#performance"
+                            data-bs-toggle="collapse" aria-expanded="false">
+                            <i class="fa-solid fa-gauge-high"></i>
+                            Performance
+                        </a>
+                        <ul id="performance" class="sidebar-dropdown collapse" data-bs-parent="#sidebar">
+                            <li class="sidebar-item">
+                                <a href="#" class="sidebar-link">
+                                    <i class="fa-solid fa-circle list-icon"></i>
+                                    Perf - Review
+                                </a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a href="#" class="sidebar-link">
+                                    <i class="fa-solid fa-circle list-icon"></i>
+                                    Perf - Appraisal
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link collapsed" data-bs-target="#training" data-bs-toggle="collapse"
+                            aria-expanded="false">
+                            <i class="fa-solid fa-utensils"></i>
+                            Training
+                        </a>
+                        <ul id="training" class="sidebar-dropdown collapse" data-bs-parent="#sidebar">
+                            <li class="sidebar-item">
+                                <a href="#" class="sidebar-link">
+                                    <i class="fa-solid fa-circle list-icon"></i>
+                                    Training list
+                                </a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a href="#" class="sidebar-link">
+                                    <i class="fa-solid fa-circle list-icon"></i>
+                                    Trainers
+                                </a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a href="#" class="sidebar-link">
+                                    <i class="fa-solid fa-circle list-icon"></i>
+                                    Training type
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <i class="fa-solid fa-pen-fancy"></i>
+                            Resignation
+                        </a>
+                    </li>
+
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <i class="fa-solid fa-hands"></i>
+                            Termination
+                        </a>
+                    </li>
+
+                    <li class="sidebar-header text-uppercase">
+                        Administration
+                    </li>
+
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link collapsed" data-bs-target="#assets" data-bs-toggle="collapse"
+                            aria-expanded="false">
+                            <i class="fa-solid fa-archway"></i>
+                            Assets
+                        </a>
+                        <ul id="assets" class="sidebar-dropdown collapse" data-bs-parent="#sidebar">
+                            <li class="sidebar-item">
+                                <a href="#" class="sidebar-link">
+                                    <i class="fa-solid fa-circle list-icon"></i>
+                                    Hotels
+                                </a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a href="#" class="sidebar-link">
+                                    <i class="fa-solid fa-circle list-icon"></i>
+                                    Departments
+                                </a>
+                            </li>
+
+                            <li class="sidebar-item">
+                                <a href="#" class="sidebar-link">
+                                    <i class="fa-solid fa-users"></i>
+                                    Activities
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link collapsed" data-bs-target="#jobs" data-bs-toggle="collapse"
+                            aria-expanded="false">
+                            <i class="fa-solid fa-toolbox"></i>
+                            Jobs
+                        </a>
+                        <ul id="jobs" class="sidebar-dropdown collapse" data-bs-parent="#sidebar">
+                            <li class="sidebar-item">
+                                <a href="#" class="sidebar-link">
+                                    <i class="fa-solid fa-circle list-icon"></i>
+                                    Hotels
+                                </a>
+                            </li>
+                            <li class="sidebar-item">
+                                <a href="#" class="sidebar-link">
+                                    <i class="fa-solid fa-circle list-icon"></i>
+                                    Departments
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            Activities
+                        </a>
+                    </li>
+
+                    <li class="sidebar-header text-uppercase">
+                        System
+                    </li>
+
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <i class="fa-solid fa-users"></i>
+                            Users
+                        </a>
+                    </li>
+
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <i class="fa-solid fa-masks-theater"></i>
+                            Roles
+                        </a>
+                    </li>
+
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <i class="fa-solid fa-rectangle-xmark"></i>
+                            Permission
+                        </a>
+                    </li>
+
                 </ul>
+                <hr>
+
+                <!-- @auth -->
+                <div class="btn-group dropdown-center sidebar-person m-3">
+                    <button type="button" class="btn sidebar-person-btn d-flex" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <img src="assets/image/superiorLogo.png" class="img-fluid profile-photo me-2" alt="">
+                        <span class="primary-color text-center">
+                            <h6 class="mt-1 mb-0">Mwendwa John</h6>
+                            <small class="text-xsmall">
+                                admin
+                            </small>
+                        </span>
+                    </button>
+                    <ul class="dropdown-menu sidebar-person-dropup">
+                        <li class="sidebar-dropup-item mb-1">
+                            <a href="#" class="">
+                                <i class="fa-solid fa-layer-group me-2"></i>
+                                Dashboard
+                            </a>
+                        </li>
+                        <li class="sidebar-dropup-item mb-1">
+                            <a href="#" class="">
+                                <i class="fa-solid fa-person-shelter me-2"></i>
+                                Profile
+                            </a>
+                        </li>
+                        <li class="sidebar-dropup-item mb-1">
+                            <a href="#" class="">
+                                <i class="fa-solid fa-gear me-2"></i>
+                                Settings
+                            </a>
+                        </li>
+                        <li class="cursor-pointer sidebar-dropup-item mb-1" data-bs-toggle="modal"
+                            data-bs-target="#logOutModal">
+                            <a href="#" class="">
+                                <i class="fa-solid fa-arrow-right-from-bracket me-2"></i>
+                                Log Out
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- @endauth -->
             </div>
         </aside>
 
@@ -145,12 +377,12 @@
             <div class="navigation">
                 <nav class="navbar navbar-expand main-navbar px-3">
                     <i class="fa-solid fa-bars-staggered sidebar-toggle" id="sidebar-toggle"></i>
-                    
+
                     <div class="navbar-collapse navbar">
                         <ul class="navbar-nav">
                             <li class="nav-item dropdown">
                                 <a href="#" data-bs-toggle="dropdown" class="nav-icon pe-md-0">
-                                    <img src="image/profile-1.jpg" class="nav-profile-photo img-fluid" alt="">
+                                    <img src="assets/image/profile-1.jpg" class="nav-profile-photo img-fluid" alt="">
                                 </a>
                                 <div class="dropdown-menu dropdown-menu-end">
                                     <a href="#" class="dropdown-item">Profile</a>
@@ -171,7 +403,7 @@
                     <div class="row g-2 pt-3">
                         <div class="col-md-4">
                             <div class="text-start">
-                                <h4 class="primary">Employee Data</h4>
+                                <h4 class="primary-color">Employee Data</h4>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -192,7 +424,7 @@
 
 
                     <section class="style-section">
-                        <div class="container-fluid table-section">
+                        <div class="container-fluid table-section table-responsive">
                             <table class="table table-hover">
                                 <thead>
                                     <tr>
@@ -306,6 +538,177 @@
                                             </div>
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <th scope="row">1</th>
+
+                                        <td class="p-3 whitespace-nowrap">
+                                            <div class="text-center">
+                                                Home
+                                            </div>
+                                        </td>
+
+                                        <td class="p-3 whitespace-nowrap">
+                                            <div class="text-center">
+                                                Home
+                                            </div>
+                                        </td>
+                                        
+                                        <td class="p-3 whitespace-nowrap">
+                                            <div class="text-center">
+                                                Home
+                                            </div>
+                                        </td>
+
+                                        <td class="p-3 whitespace-nowrap">
+                                            <div class="text-center">
+                                                Home
+                                            </div>
+                                        </td>
+
+                                        <td class="p-3 whitespace-nowrap">
+                                            <div class="text-center">
+                                                Home
+                                            </div>
+                                        </td>
+
+                                        <td class="p-3 whitespace-nowrap">
+                                            <div class="text-center">
+                                                Home
+                                            </div>
+                                        </td>
+
+                                        <td class="p-3 whitespace-nowrap">
+                                            <div class="text-center">
+                                                Home
+                                            </div>
+                                        </td>
+
+                                        <td class="p-3 whitespace-nowrap">
+                                            <div class="text-center">
+                                                Home
+                                            </div>
+                                        </td>
+
+                                        <td class="p-3 whitespace-nowrap">
+                                            <div class="text-center">
+                                                Home
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">1</th>
+
+                                        <td class="p-3 whitespace-nowrap">
+                                            <div class="text-center">
+                                                Home
+                                            </div>
+                                        </td>
+
+                                        <td class="p-3 whitespace-nowrap">
+                                            <div class="text-center">
+                                                Home
+                                            </div>
+                                        </td>
+                                        
+                                        <td class="p-3 whitespace-nowrap">
+                                            <div class="text-center">
+                                                Home
+                                            </div>
+                                        </td>
+
+                                        <td class="p-3 whitespace-nowrap">
+                                            <div class="text-center">
+                                                Home
+                                            </div>
+                                        </td>
+
+                                        <td class="p-3 whitespace-nowrap">
+                                            <div class="text-center">
+                                                Home
+                                            </div>
+                                        </td>
+
+                                        <td class="p-3 whitespace-nowrap">
+                                            <div class="text-center">
+                                                Home
+                                            </div>
+                                        </td>
+
+                                        <td class="p-3 whitespace-nowrap">
+                                            <div class="text-center">
+                                                Home
+                                            </div>
+                                        </td>
+
+                                        <td class="p-3 whitespace-nowrap">
+                                            <div class="text-center">
+                                                Home
+                                            </div>
+                                        </td>
+
+                                        <td class="p-3 whitespace-nowrap">
+                                            <div class="text-center">
+                                                Home
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">1</th>
+
+                                        <td class="p-3 whitespace-nowrap">
+                                            <div class="text-center">
+                                                Home
+                                            </div>
+                                        </td>
+
+                                        <td class="p-3 whitespace-nowrap">
+                                            <div class="text-center">
+                                                Home
+                                            </div>
+                                        </td>
+                                        
+                                        <td class="p-3 whitespace-nowrap">
+                                            <div class="text-center">
+                                                Home
+                                            </div>
+                                        </td>
+
+                                        <td class="p-3 whitespace-nowrap">
+                                            <div class="text-center">
+                                                Home
+                                            </div>
+                                        </td>
+
+                                        <td class="p-3 whitespace-nowrap">
+                                            <div class="text-center">
+                                                Home
+                                            </div>
+                                        </td>
+
+                                        <td class="p-3 whitespace-nowrap">
+                                            <div class="text-center">
+                                                Home
+                                            </div>
+                                        </td>
+
+                                        <td class="p-3 whitespace-nowrap">
+                                            <div class="text-center">
+                                                Home
+                                            </div>
+                                        </td>
+
+                                        <td class="p-3 whitespace-nowrap">
+                                            <div class="text-center">
+                                                Home
+                                            </div>
+                                        </td>
+
+                                        <td class="p-3 whitespace-nowrap">
+                                            <div class="text-center">
+                                                Home
+                                            </div>
+                                        </td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -316,35 +719,35 @@
 
             <footer class="footer">
                 <div class="container-fluid">
-                    <div class="row text-muted">
-                        <div class="col-4 text-start">
+                    <div class="row">
+                        <div class="col-6 text-start">
                             <p class="mb-0">
-                                <a href="#" class="text-muted">
-                                    <strong>Superior Hetels, Kenya</strong>
+                                <a href="#">
+                                    <span class="primary-color">Superior Hotels, Kenya | Human Resource Management System</span>
                                 </a>
                             </p>
                         </div>
 
-                        <div class="col-4 text-center">
+                        <div class="col-2 text-center">
                             <p class="mb-0">
-                                <a href="#" class="text-muted">
-                                    <strong>Copyright © 2021</strong>
+                                <a href="#">
+                                    &copy; <span id="currentYear" class="primary-color"></span>
                                 </a>
                             </p>
                         </div>
                         <div class="col-4 text-end">
                             <ul class="list-inline">
                                 <li class="list-inline-item">
-                                    <a href="#" class="text-muted">Contact</a>
+                                    <a href="#" class="primary-color">Contact</a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#" class="text-muted">About Us</a>
+                                    <a href="#" class="primary-color">About Us</a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#" class="text-muted">Terms</a>
+                                    <a href="#" class="primary-color">Terms</a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#" class="text-muted">Booking</a>
+                                    <a href="#" class="primary-color">Booking</a>
                                 </li>
                             </ul>
                         </div>
